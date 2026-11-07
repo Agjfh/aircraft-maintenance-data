@@ -1,8 +1,7 @@
-"""Load the A320 project CSV files that are currently published in this repository.
+"""Load the A320 project CSV files published in this repository.
 
-The synthetic defect-report table is split into three CSV chunks so that each
-file remains manageable through the GitHub upload interface. This loader
-combines those chunks into one DataFrame.
+Large tables are split into numbered CSV parts. Each part repeats its header;
+this module concatenates the parts into one pandas DataFrame.
 """
 from __future__ import annotations
 
@@ -20,36 +19,31 @@ def read_remote_csv(relative_path: str) -> pd.DataFrame:
     return pd.read_csv(url)
 
 
+def read_csv_parts(root: str, stem: str, count: int) -> pd.DataFrame:
+    """Read numbered CSV chunks and combine them into one DataFrame."""
+    frames = [
+        read_remote_csv(f"{root}/{stem}_part{part}.csv")
+        for part in range(1, count + 1)
+    ]
+    return pd.concat(frames, ignore_index=True)
+
+
 def load_project_data() -> dict[str, pd.DataFrame]:
     root = "data/raw/a320_synthetic"
 
-    aircraft = read_remote_csv(f"{root}/aircraft.csv")
-    engines = read_remote_csv(f"{root}/engines.csv")
-    parts = read_remote_csv(f"{root}/parts_inventory.csv")
-    technicians = read_remote_csv(f"{root}/technicians.csv")
-    maintenance_schedule = read_remote_csv(f"{root}/maintenance_schedule.csv")
-
-    defect_files = [
-        f"{root}/defect_reports_part1.csv",
-        f"{root}/defect_reports_part2.csv",
-        f"{root}/defect_reports_part3.csv",
-    ]
-    defects = pd.concat(
-        [read_remote_csv(path) for path in defect_files],
-        ignore_index=True,
-    )
-
     return {
-        "aircraft": aircraft,
-        "engines": engines,
-        "parts": parts,
-        "technicians": technicians,
-        "maintenance_schedule": maintenance_schedule,
-        "defects": defects,
+        "aircraft": read_remote_csv(f"{root}/aircraft.csv"),
+        "engines": read_remote_csv(f"{root}/engines.csv"),
+        "parts": read_remote_csv(f"{root}/parts_inventory.csv"),
+        "technicians": read_remote_csv(f"{root}/technicians.csv"),
+        "maintenance_schedule": read_remote_csv(
+            f"{root}/maintenance_schedule.csv"
+        ),
+        "defects": read_csv_parts(root, "defect_reports", 3),
+        "work_orders": read_csv_parts(root, "work_orders", 4),
     }
 
 
 if __name__ == "__main__":
-    tables = load_project_data()
-    for table_name, frame in tables.items():
-        print(f"{table_name}: {len(frame):,} rows")
+    for name, frame in load_project_data().items():
+        print(f"{name}: {len(frame):,} rows")
