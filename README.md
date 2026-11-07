@@ -47,11 +47,19 @@ Raw file URL pattern:
 https://raw.githubusercontent.com/Agjfh/aircraft-maintenance-data/main/<path>
 ```
 
-Example (Python):
+Example (Python) — currently uploaded A320 CSV files:
 
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/Agjfh/aircraft-maintenance-data/main/data/raw/a320_synthetic/engine_sensor_data.csv"
-df = pd.read_csv(url)
+BASE = "https://raw.githubusercontent.com/Agjfh/aircraft-maintenance-data/main"
+
+aircraft = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/aircraft.csv")
+engines = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/engines.csv")
+parts = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/parts_inventory.csv")
+technicians = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/technicians.csv")
 ```
+
+## Current upload status
+
+The repository currently contains the project documentation, SQL scripts, ML baseline scripts, and the four A320 CSV files listed above. The original ZIP also contains larger datasets and binary files (including sensor readings, FAA/NASA datasets, and the SQLite database) that are not yet uploaded. Do not use a Raw URL for a file until that file appears in the repository.
