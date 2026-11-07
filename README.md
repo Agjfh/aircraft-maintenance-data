@@ -1,65 +1,84 @@
-# Aircraft Maintenance Data – Airbus A320
+# Aircraft Maintenance Data – Airbus A320 Graduation Project
 
-Dataset repository for an aircraft-maintenance graduation project. It includes a SQLite database, synthetic A320 fleet records, NASA C-MAPSS turbofan data, FAA Service Difficulty Reports, processed ML datasets, and baseline ML scripts.
+Public data repository for an aircraft-maintenance graduation project. The repository currently contains a usable subset of the original ZIP archive. Some large source files are still not present; see **Upload status and limitations** below.
 
-## Repository structure
+## Repository contents
 
-- `db/`: SQLite database, SQL schema, seed script, and example queries.
-- `data/raw/`: source datasets. The A320 fleet sample is synthetic; NASA C-MAPSS is a generic turbofan simulation and is not specific to an A320 engine; FAA SDR reports are historical safety reports.
-- `data/processed/`: prepared C-MAPSS and SDR datasets for model training and evaluation.
-- `ml/`: baseline remaining-useful-life (RUL) and SDR classification scripts.
-- `DATA_SOURCES.md`: dataset sources, licensing notes, and important caveats.
+### Synthetic A320 maintenance data
 
-## Quick start
+Folder: `data/raw/a320_synthetic/`
 
-Install dependencies:
+| File | Description |
+|---|---|
+| `aircraft.csv` | Aircraft / fleet records |
+| `engines.csv` | Engine assignments and health indicators |
+| `parts_inventory.csv` | Spare-parts inventory |
+| `technicians.csv` | Technician records |
+| `maintenance_schedule.csv` | Maintenance schedule |
+| `defect_reports_part1.csv` to `defect_reports_part3.csv` | 500 defect-report rows, split into three files |
+| `work_orders_part1.csv` to `work_orders_part4.csv` | 500 work-order rows, split into four files |
+
+The synthetic A320 records are generated for this project and are **not real airline operational records**. Maintenance intervals are illustrative and are not official Airbus MPD data.
+
+### NASA C-MAPSS labels
+
+Folder: `data/raw/nasa_cmapss/`
+
+The repository includes the NASA source readme and the RUL label files for FD001–FD004 as regular CSV files. The full train/test sensor trajectory archives are **not uploaded yet**. C-MAPSS is a turbofan simulation and is not specific to an A320 engine.
+
+### SQL and machine-learning code
+
+- `db/schema.sql`, `db/queries.sql`, `db/seed.py`: SQL schema, example queries and database seeding script.
+- `ml/rul_baseline.py`, `ml/sdr_classifier.py`: baseline model scripts.
+- `data/load_remote_data.py`: Python helper for downloading and combining the currently published A320 CSV files.
+
+## Load the published data from Python
+
+Install the dependency:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas
 ```
 
-Run the example SQL queries with SQLite:
+Then run:
 
-```bash
-sqlite3 db/a320_maintenance.db < db/queries.sql
+```python
+from data.load_remote_data import load_project_data
+
+tables = load_project_data()
+
+aircraft = tables["aircraft"]
+engines = tables["engines"]
+defects = tables["defects"]
+work_orders = tables["work_orders"]
+maintenance_schedule = tables["maintenance_schedule"]
+
+print(len(aircraft), len(defects), len(work_orders))
 ```
 
-Rebuild the database from the CSV files:
-
-```bash
-python db/seed.py
-```
-
-Run baseline models:
-
-```bash
-python ml/rul_baseline.py FD001
-python ml/sdr_classifier.py hazard_binary
-```
-
-Read `DATA_SOURCES.md` before citing or presenting the datasets. In particular, do not describe synthetic A320 records as real operational data, and do not describe NASA C-MAPSS as A320-specific.
-
-## Using raw GitHub files in code
-
-Raw file URL pattern:
-
-```text
-https://raw.githubusercontent.com/Agjfh/aircraft-maintenance-data/main/<path>
-```
-
-Example (Python) — currently uploaded A320 CSV files:
+You can also read an individual file using its Raw URL:
 
 ```python
 import pandas as pd
 
-BASE = "https://raw.githubusercontent.com/Agjfh/aircraft-maintenance-data/main"
-
-aircraft = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/aircraft.csv")
-engines = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/engines.csv")
-parts = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/parts_inventory.csv")
-technicians = pd.read_csv(f"{BASE}/data/raw/a320_synthetic/technicians.csv")
+url = (
+    "https://raw.githubusercontent.com/Agjfh/"
+    "aircraft-maintenance-data/main/"
+    "data/raw/a320_synthetic/aircraft.csv"
+)
+aircraft = pd.read_csv(url)
 ```
 
-## Current upload status
+## Upload status and limitations
 
-The repository currently contains the project documentation, SQL scripts, ML baseline scripts, and the four A320 CSV files listed above. The original ZIP also contains larger datasets and binary files (including sensor readings, FAA/NASA datasets, and the SQLite database) that are not yet uploaded. Do not use a Raw URL for a file until that file appears in the repository.
+Uploaded and verified: the seven A320 data groups listed above (aircraft, engines, inventory, technicians, schedule, defects, and work orders), the four NASA RUL label CSVs, the C-MAPSS metadata file, project documentation, SQL scripts, and ML baseline scripts.
+
+Still not uploaded from the original ZIP: the complete engine sensor readings CSV, the full FAA SDR report CSV, the full NASA C-MAPSS train/test trajectory archives, the processed SDR and C-MAPSS training datasets, the extra unverified flight-operations CSV, and the SQLite database file. Their larger sizes or binary format could not be transferred through the currently available GitHub file-writing interface. **Do not assume these missing files are available through Raw URLs.**
+
+## Data source and academic-use notes
+
+Read `DATA_SOURCES.md` before using or citing the data. In particular:
+- A320 fleet / maintenance / defects / work orders are synthetic.
+- NASA C-MAPSS represents simulated turbofan degradation, not A320-specific engine data.
+- The extra flight-operations CSV is marked unverified in the original dataset.
+- Do not use this dataset or the example models as a substitute for approved aircraft maintenance data or procedures.
