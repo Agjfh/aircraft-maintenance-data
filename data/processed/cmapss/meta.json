@@ -1,22 +1,130 @@
 {
   "FD001": {
-    "kept_sensors": ["sensor_2", "sensor_3", "sensor_4", "sensor_6", "sensor_7", "sensor_8", "sensor_9", "sensor_11", "sensor_12", "sensor_13", "sensor_14", "sensor_15", "sensor_17", "sensor_20", "sensor_21"],
-    "dropped_sensors": ["sensor_1", "sensor_5", "sensor_10", "sensor_16", "sensor_18", "sensor_19"],
-    "n_conditions": 1, "rul_clip": 125, "train_rows": 20631, "train_engines": 100, "test_engines": 100
+    "kept_sensors": [
+      "sensor_2",
+      "sensor_3",
+      "sensor_4",
+      "sensor_6",
+      "sensor_7",
+      "sensor_8",
+      "sensor_9",
+      "sensor_11",
+      "sensor_12",
+      "sensor_13",
+      "sensor_14",
+      "sensor_15",
+      "sensor_17",
+      "sensor_20",
+      "sensor_21"
+    ],
+    "dropped_sensors": [
+      "sensor_1",
+      "sensor_5",
+      "sensor_10",
+      "sensor_16",
+      "sensor_18",
+      "sensor_19"
+    ],
+    "n_conditions": 1,
+    "rul_clip": 125,
+    "train_rows": 20631,
+    "train_engines": 100,
+    "test_engines": 100
   },
   "FD002": {
-    "kept_sensors": ["sensor_2", "sensor_3", "sensor_4", "sensor_6", "sensor_7", "sensor_8", "sensor_9", "sensor_10", "sensor_11", "sensor_12", "sensor_13", "sensor_14", "sensor_15", "sensor_16", "sensor_17", "sensor_20", "sensor_21"],
-    "dropped_sensors": ["sensor_1", "sensor_5", "sensor_18", "sensor_19"],
-    "n_conditions": 6, "rul_clip": 125, "train_rows": 53759, "train_engines": 260, "test_engines": 259
+    "kept_sensors": [
+      "sensor_2",
+      "sensor_3",
+      "sensor_4",
+      "sensor_6",
+      "sensor_7",
+      "sensor_8",
+      "sensor_9",
+      "sensor_10",
+      "sensor_11",
+      "sensor_12",
+      "sensor_13",
+      "sensor_14",
+      "sensor_15",
+      "sensor_16",
+      "sensor_17",
+      "sensor_20",
+      "sensor_21"
+    ],
+    "dropped_sensors": [
+      "sensor_1",
+      "sensor_5",
+      "sensor_18",
+      "sensor_19"
+    ],
+    "n_conditions": 6,
+    "rul_clip": 125,
+    "train_rows": 53759,
+    "train_engines": 260,
+    "test_engines": 259
   },
   "FD003": {
-    "kept_sensors": ["sensor_2", "sensor_3", "sensor_4", "sensor_6", "sensor_7", "sensor_8", "sensor_9", "sensor_10", "sensor_11", "sensor_12", "sensor_13", "sensor_14", "sensor_15", "sensor_17", "sensor_20", "sensor_21"],
-    "dropped_sensors": ["sensor_1", "sensor_5", "sensor_16", "sensor_18", "sensor_19"],
-    "n_conditions": 1, "rul_clip": 125, "train_rows": 24720, "train_engines": 100, "test_engines": 100
+    "kept_sensors": [
+      "sensor_2",
+      "sensor_3",
+      "sensor_4",
+      "sensor_6",
+      "sensor_7",
+      "sensor_8",
+      "sensor_9",
+      "sensor_10",
+      "sensor_11",
+      "sensor_12",
+      "sensor_13",
+      "sensor_14",
+      "sensor_15",
+      "sensor_17",
+      "sensor_20",
+      "sensor_21"
+    ],
+    "dropped_sensors": [
+      "sensor_1",
+      "sensor_5",
+      "sensor_16",
+      "sensor_18",
+      "sensor_19"
+    ],
+    "n_conditions": 1,
+    "rul_clip": 125,
+    "train_rows": 24720,
+    "train_engines": 100,
+    "test_engines": 100
   },
   "FD004": {
-    "kept_sensors": ["sensor_2", "sensor_3", "sensor_4", "sensor_6", "sensor_7", "sensor_8", "sensor_9", "sensor_10", "sensor_11", "sensor_12", "sensor_13", "sensor_14", "sensor_15", "sensor_16", "sensor_17", "sensor_20", "sensor_21"],
-    "dropped_sensors": ["sensor_1", "sensor_5", "sensor_18", "sensor_19"],
-    "n_conditions": 6, "rul_clip": 125, "train_rows": 61249, "train_engines": 249, "test_engines": 248
+    "kept_sensors": [
+      "sensor_2",
+      "sensor_3",
+      "sensor_4",
+      "sensor_6",
+      "sensor_7",
+      "sensor_8",
+      "sensor_9",
+      "sensor_10",
+      "sensor_11",
+      "sensor_12",
+      "sensor_13",
+      "sensor_14",
+      "sensor_15",
+      "sensor_16",
+      "sensor_17",
+      "sensor_20",
+      "sensor_21"
+    ],
+    "dropped_sensors": [
+      "sensor_1",
+      "sensor_5",
+      "sensor_18",
+      "sensor_19"
+    ],
+    "n_conditions": 6,
+    "rul_clip": 125,
+    "train_rows": 61249,
+    "train_engines": 249,
+    "test_engines": 248
   }
 }

@@ -1,0 +1,501 @@
+defect_id,aircraft_id,reported_date,ata_chapter,system,description,severity,reported_by,aircraft_grounded
+D0001,AC036,2026-06-21,34,Navigation,Brake wear beyond limit,Minor,Inspection,0
+D0002,AC021,2025-10-30,79,Oil,Hydraulic pressure low,Minor,Pilot,0
+D0003,AC001,2025-06-14,79,Oil,Bird strike damage,Major,Line Mechanic,0
+D0004,AC015,2026-04-05,79,Oil,Worn component found during inspection,Minor,Pilot,0
+D0005,AC028,2025-06-13,24,Electrical Power,Worn component found during inspection,Major,Cabin Crew,0
+D0006,AC012,2026-02-23,28,Fuel,Sensor fault message,Major,Line Mechanic,0
+D0007,AC011,2025-12-24,32,Landing Gear,Hydraulic pressure low,Major,Inspection,0
+D0008,AC007,2026-06-28,29,Hydraulic Power,Abnormal temperature reading,Minor,Automated Monitoring,0
+D0009,AC026,2026-01-27,52,Doors,Bird strike damage,Minor,Automated Monitoring,0
+D0010,AC006,2026-08-30,24,Electrical Power,Abnormal temperature reading,Minor,Line Mechanic,0
+D0011,AC027,2026-06-28,34,Navigation,Oil leak detected,Major,Cabin Crew,0
+D0012,AC023,2026-10-08,49,APU,Sensor fault message,Minor,Line Mechanic,0
+D0013,AC001,2026-01-06,72,Engine,Oil leak detected,Major,Cabin Crew,0
+D0014,AC001,2025-07-08,32,Landing Gear,Oil leak detected,Minor,Cabin Crew,0
+D0015,AC015,2025-10-21,32,Landing Gear,Fuel flow fluctuation,Critical,Inspection,0
+D0016,AC034,2026-04-24,79,Oil,Intermittent warning light,Minor,Cabin Crew,0
+D0017,AC036,2026-05-24,36,Pneumatic,Corrosion found,Minor,Cabin Crew,0
+D0018,AC010,2025-11-26,52,Doors,Abnormal temperature reading,Major,Inspection,0
+D0019,AC015,2026-08-11,53,Fuselage,Brake wear beyond limit,Minor,Line Mechanic,0
+D0020,AC017,2026-01-11,28,Fuel,Excessive wear,Minor,Cabin Crew,0
+D0021,AC008,2026-03-10,79,Oil,Brake wear beyond limit,Major,Pilot,0
+D0022,AC006,2026-10-16,31,Indicating/Recording,Hydraulic pressure low,Critical,Cabin Crew,0
+D0023,AC032,2026-08-02,49,APU,Fuel flow fluctuation,Major,Line Mechanic,0
+D0024,AC020,2026-06-03,29,Hydraulic Power,Worn component found during inspection,Minor,Cabin Crew,0
+D0025,AC014,2026-09-23,53,Fuselage,Corrosion found,Critical,Pilot,0
+D0026,AC035,2025-11-22,36,Pneumatic,Excessive wear,Minor,Line Mechanic,0
+D0027,AC034,2026-04-24,21,Air Conditioning,Worn component found during inspection,Minor,Cabin Crew,0
+D0028,AC027,2026-02-20,73,Engine Fuel & Control,Vibration above limits,Minor,Automated Monitoring,0
+D0029,AC040,2025-07-04,36,Pneumatic,Bird strike damage,Minor,Pilot,0
+D0030,AC008,2026-02-11,73,Engine Fuel & Control,Intermittent warning light,Minor,Line Mechanic,0
+D0031,AC027,2025-12-03,21,Air Conditioning,Hydraulic pressure low,Minor,Inspection,0
+D0032,AC020,2026-06-21,73,Engine Fuel & Control,Hydraulic pressure low,Minor,Pilot,0
+D0033,AC032,2026-08-23,36,Pneumatic,Sensor fault message,Major,Cabin Crew,0
+D0034,AC037,2025-10-24,34,Navigation,Bird strike damage,Major,Line Mechanic,0
+D0035,AC006,2026-02-23,36,Pneumatic,Oil leak detected,Major,Automated Monitoring,0
+D0036,AC027,2026-06-07,28,Fuel,Oil leak detected,Major,Automated Monitoring,0
+D0037,AC030,2026-02-07,28,Fuel,Oil leak detected,Major,Cabin Crew,0
+D0038,AC034,2025-11-19,53,Fuselage,Brake wear beyond limit,Minor,Automated Monitoring,0
+D0039,AC040,2025-11-29,72,Engine,Excessive wear,Major,Cabin Crew,0
+D0040,AC001,2025-06-05,73,Engine Fuel & Control,Oil leak detected,Minor,Inspection,0
+D0041,AC028,2025-05-28,29,Hydraulic Power,Bird strike damage,Minor,Cabin Crew,0
+D0042,AC024,2026-01-12,27,Flight Controls,Abnormal temperature reading,Minor,Inspection,0
+D0043,AC003,2026-07-02,79,Oil,Hydraulic pressure low,Minor,Automated Monitoring,0
+D0044,AC024,2025-11-08,21,Air Conditioning,Excessive wear,Major,Automated Monitoring,0
+D0045,AC027,2025-10-04,49,APU,Vibration above limits,Minor,Pilot,0
+D0046,AC003,2025-12-07,21,Air Conditioning,Fuel flow fluctuation,Minor,Inspection,0
+D0047,AC016,2026-01-25,49,APU,Worn component found during inspection,Minor,Cabin Crew,0
+D0048,AC005,2026-06-23,52,Doors,Worn component found during inspection,Major,Pilot,0
+D0049,AC038,2025-07-08,21,Air Conditioning,Hydraulic pressure low,Major,Automated Monitoring,0
+D0050,AC022,2026-06-12,73,Engine Fuel & Control,Abnormal temperature reading,Minor,Inspection,0
+D0051,AC021,2026-05-07,32,Landing Gear,Vibration above limits,Minor,Pilot,0
+D0052,AC020,2026-05-31,73,Engine Fuel & Control,Oil leak detected,Major,Pilot,0
+D0053,AC013,2025-05-18,29,Hydraulic Power,Vibration above limits,Minor,Inspection,0
+D0054,AC009,2026-02-13,73,Engine Fuel & Control,Excessive wear,Minor,Pilot,0
+D0055,AC019,2026-09-24,53,Fuselage,Hydraulic pressure low,Major,Pilot,0
+D0056,AC028,2025-06-05,72,Engine,Fuel flow fluctuation,Minor,Automated Monitoring,0
+D0057,AC022,2025-06-06,79,Oil,Fuel flow fluctuation,Minor,Cabin Crew,0
+D0058,AC040,2026-04-13,49,APU,Abnormal temperature reading,Minor,Line Mechanic,0
+D0059,AC025,2025-05-25,21,Air Conditioning,Oil leak detected,Minor,Line Mechanic,0
+D0060,AC021,2025-08-03,34,Navigation,Vibration above limits,Minor,Line Mechanic,0
+D0061,AC028,2026-11-07,73,Engine Fuel & Control,Bird strike damage,Minor,Line Mechanic,0
+D0062,AC020,2025-09-10,52,Doors,Bird strike damage,Minor,Line Mechanic,0
+D0063,AC040,2025-12-24,31,Indicating/Recording,Hydraulic pressure low,Minor,Automated Monitoring,0
+D0064,AC003,2026-05-19,52,Doors,Hydraulic pressure low,Minor,Cabin Crew,0
+D0065,AC005,2026-02-04,52,Doors,Sensor fault message,Minor,Inspection,0
+D0066,AC006,2026-09-13,21,Air Conditioning,Fuel flow fluctuation,Critical,Automated Monitoring,0
+D0067,AC005,2025-05-25,31,Indicating/Recording,Intermittent warning light,Major,Cabin Crew,0
+D0068,AC010,2025-08-04,24,Electrical Power,Fuel flow fluctuation,Minor,Cabin Crew,0
+D0069,AC037,2026-03-10,29,Hydraulic Power,Worn component found during inspection,Minor,Inspection,0
+D0070,AC029,2026-11-07,28,Fuel,Hydraulic pressure low,Major,Cabin Crew,0
+D0071,AC037,2026-09-09,52,Doors,Worn component found during inspection,Minor,Pilot,0
+D0072,AC034,2026-03-20,32,Landing Gear,Vibration above limits,Major,Automated Monitoring,0
+D0073,AC025,2026-05-17,32,Landing Gear,Excessive wear,Minor,Cabin Crew,0
+D0074,AC038,2025-10-02,32,Landing Gear,Hydraulic pressure low,Minor,Cabin Crew,0
+D0075,AC033,2026-03-04,31,Indicating/Recording,Fuel flow fluctuation,Critical,Line Mechanic,0
+D0076,AC007,2026-08-25,28,Fuel,Oil leak detected,Minor,Cabin Crew,0
+D0077,AC004,2025-08-24,79,Oil,Corrosion found,Major,Inspection,0
+D0078,AC007,2026-09-21,21,Air Conditioning,Intermittent warning light,Minor,Cabin Crew,0
+D0079,AC009,2026-06-09,52,Doors,Sensor fault message,Minor,Inspection,0
+D0080,AC029,2025-09-16,31,Indicating/Recording,Hydraulic pressure low,Minor,Automated Monitoring,0
+D0081,AC002,2026-03-07,53,Fuselage,Excessive wear,Minor,Inspection,0
+D0082,AC022,2025-09-02,79,Oil,Abnormal temperature reading,Minor,Line Mechanic,0
+D0083,AC004,2026-05-20,72,Engine,Worn component found during inspection,Minor,Cabin Crew,0
+D0084,AC022,2026-10-28,36,Pneumatic,Bird strike damage,Major,Line Mechanic,0
+D0085,AC025,2025-10-05,32,Landing Gear,Worn component found during inspection,Critical,Pilot,0
+D0086,AC011,2026-08-31,49,APU,Bird strike damage,Minor,Line Mechanic,0
+D0087,AC018,2026-02-07,34,Navigation,Bird strike damage,Major,Pilot,0
+D0088,AC031,2026-01-13,36,Pneumatic,Excessive wear,Major,Automated Monitoring,0
+D0089,AC003,2026-09-19,36,Pneumatic,Hydraulic pressure low,Major,Line Mechanic,0
+D0090,AC023,2025-10-14,72,Engine,Oil leak detected,Major,Cabin Crew,0
+D0091,AC021,2025-05-29,31,Indicating/Recording,Vibration above limits,Minor,Inspection,0
+D0092,AC001,2025-08-07,21,Air Conditioning,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0093,AC019,2026-04-08,73,Engine Fuel & Control,Bird strike damage,Minor,Line Mechanic,0
+D0094,AC006,2025-09-24,29,Hydraulic Power,Excessive wear,Major,Inspection,0
+D0095,AC021,2026-11-01,24,Electrical Power,Intermittent warning light,Major,Pilot,0
+D0096,AC002,2026-09-18,24,Electrical Power,Sensor fault message,Major,Inspection,0
+D0097,AC023,2026-08-19,28,Fuel,Oil leak detected,Major,Line Mechanic,0
+D0098,AC023,2025-08-01,24,Electrical Power,Hydraulic pressure low,Critical,Pilot,0
+D0099,AC033,2025-10-07,34,Navigation,Brake wear beyond limit,Major,Pilot,0
+D0100,AC015,2026-09-21,79,Oil,Abnormal temperature reading,Major,Automated Monitoring,0
+D0101,AC012,2025-10-26,21,Air Conditioning,Bird strike damage,Major,Line Mechanic,0
+D0102,AC029,2026-03-20,72,Engine,Fuel flow fluctuation,Minor,Inspection,0
+D0103,AC018,2025-08-30,24,Electrical Power,Sensor fault message,Minor,Line Mechanic,0
+D0104,AC034,2026-05-04,32,Landing Gear,Intermittent warning light,Major,Inspection,0
+D0105,AC038,2025-12-18,24,Electrical Power,Worn component found during inspection,Major,Pilot,0
+D0106,AC026,2026-04-18,72,Engine,Bird strike damage,Critical,Cabin Crew,0
+D0107,AC007,2026-05-25,72,Engine,Hydraulic pressure low,Minor,Automated Monitoring,0
+D0108,AC024,2025-12-27,49,APU,Fuel flow fluctuation,Major,Cabin Crew,0
+D0109,AC022,2026-07-30,36,Pneumatic,Vibration above limits,Minor,Automated Monitoring,0
+D0110,AC021,2026-08-30,34,Navigation,Oil leak detected,Minor,Cabin Crew,0
+D0111,AC002,2025-11-20,28,Fuel,Vibration above limits,Minor,Pilot,0
+D0112,AC001,2026-05-23,52,Doors,Corrosion found,Minor,Line Mechanic,0
+D0113,AC020,2025-12-11,49,APU,Corrosion found,Major,Cabin Crew,0
+D0114,AC029,2025-06-17,28,Fuel,Excessive wear,Major,Automated Monitoring,0
+D0115,AC014,2025-10-02,49,APU,Excessive wear,Minor,Cabin Crew,0
+D0116,AC035,2026-06-24,36,Pneumatic,Bird strike damage,Minor,Inspection,0
+D0117,AC011,2025-10-04,52,Doors,Excessive wear,Critical,Pilot,1
+D0118,AC011,2026-10-22,72,Engine,Intermittent warning light,Minor,Automated Monitoring,0
+D0119,AC004,2026-07-05,21,Air Conditioning,Abnormal temperature reading,Major,Inspection,0
+D0120,AC036,2026-08-03,73,Engine Fuel & Control,Intermittent warning light,Critical,Automated Monitoring,1
+D0121,AC030,2025-10-20,31,Indicating/Recording,Abnormal temperature reading,Minor,Automated Monitoring,0
+D0122,AC029,2025-10-15,31,Indicating/Recording,Sensor fault message,Minor,Automated Monitoring,0
+D0123,AC016,2026-09-28,29,Hydraulic Power,Corrosion found,Major,Automated Monitoring,0
+D0124,AC013,2026-03-09,31,Indicating/Recording,Bird strike damage,Major,Automated Monitoring,0
+D0125,AC004,2026-04-27,29,Hydraulic Power,Sensor fault message,Major,Pilot,0
+D0126,AC015,2026-08-20,79,Oil,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0127,AC039,2025-07-23,36,Pneumatic,Brake wear beyond limit,Minor,Inspection,0
+D0128,AC015,2025-07-01,32,Landing Gear,Oil leak detected,Major,Pilot,0
+D0129,AC020,2026-01-24,29,Hydraulic Power,Sensor fault message,Major,Inspection,0
+D0130,AC007,2025-08-23,49,APU,Sensor fault message,Minor,Inspection,0
+D0131,AC023,2025-11-04,36,Pneumatic,Oil leak detected,Critical,Pilot,0
+D0132,AC027,2025-11-17,49,APU,Intermittent warning light,Minor,Automated Monitoring,0
+D0133,AC031,2026-07-17,52,Doors,Bird strike damage,Minor,Cabin Crew,0
+D0134,AC030,2026-11-06,34,Navigation,Oil leak detected,Minor,Automated Monitoring,0
+D0135,AC007,2026-03-05,29,Hydraulic Power,Oil leak detected,Minor,Inspection,0
+D0136,AC034,2026-02-12,72,Engine,Abnormal temperature reading,Minor,Cabin Crew,0
+D0137,AC036,2025-10-11,79,Oil,Brake wear beyond limit,Major,Inspection,0
+D0138,AC025,2026-02-25,72,Engine,Worn component found during inspection,Minor,Inspection,0
+D0139,AC038,2025-11-06,36,Pneumatic,Intermittent warning light,Minor,Pilot,0
+D0140,AC025,2025-07-14,28,Fuel,Intermittent warning light,Minor,Inspection,0
+D0141,AC007,2025-06-14,34,Navigation,Vibration above limits,Minor,Line Mechanic,0
+D0142,AC020,2026-08-19,52,Doors,Bird strike damage,Minor,Cabin Crew,0
+D0143,AC015,2026-07-28,24,Electrical Power,Corrosion found,Minor,Pilot,0
+D0144,AC036,2026-06-21,36,Pneumatic,Excessive wear,Major,Automated Monitoring,0
+D0145,AC019,2025-10-08,28,Fuel,Vibration above limits,Critical,Pilot,1
+D0146,AC024,2026-07-24,24,Electrical Power,Oil leak detected,Minor,Pilot,0
+D0147,AC023,2025-11-12,53,Fuselage,Brake wear beyond limit,Minor,Line Mechanic,0
+D0148,AC028,2026-06-07,28,Fuel,Vibration above limits,Major,Cabin Crew,0
+D0149,AC027,2026-01-19,27,Flight Controls,Fuel flow fluctuation,Minor,Cabin Crew,0
+D0150,AC031,2026-05-18,52,Doors,Worn component found during inspection,Minor,Line Mechanic,0
+D0151,AC009,2026-01-17,49,APU,Oil leak detected,Major,Cabin Crew,0
+D0152,AC004,2025-12-13,34,Navigation,Oil leak detected,Minor,Cabin Crew,0
+D0153,AC025,2026-05-14,27,Flight Controls,Oil leak detected,Major,Automated Monitoring,0
+D0154,AC027,2026-05-11,72,Engine,Brake wear beyond limit,Minor,Line Mechanic,0
+D0155,AC037,2025-08-09,21,Air Conditioning,Intermittent warning light,Minor,Pilot,0
+D0156,AC013,2025-09-22,72,Engine,Fuel flow fluctuation,Minor,Cabin Crew,0
+D0157,AC035,2025-11-24,36,Pneumatic,Excessive wear,Minor,Pilot,0
+D0158,AC002,2026-03-31,24,Electrical Power,Worn component found during inspection,Minor,Automated Monitoring,0
+D0159,AC020,2026-04-24,31,Indicating/Recording,Hydraulic pressure low,Minor,Pilot,0
+D0160,AC029,2026-07-04,34,Navigation,Excessive wear,Minor,Automated Monitoring,0
+D0161,AC022,2026-03-09,79,Oil,Bird strike damage,Major,Line Mechanic,0
+D0162,AC030,2026-04-05,53,Fuselage,Excessive wear,Critical,Pilot,0
+D0163,AC002,2026-10-01,36,Pneumatic,Abnormal temperature reading,Minor,Cabin Crew,0
+D0164,AC023,2026-02-23,27,Flight Controls,Sensor fault message,Major,Cabin Crew,0
+D0165,AC032,2026-01-01,36,Pneumatic,Oil leak detected,Major,Inspection,0
+D0166,AC003,2025-11-02,24,Electrical Power,Bird strike damage,Major,Automated Monitoring,0
+D0167,AC025,2026-10-21,34,Navigation,Worn component found during inspection,Major,Inspection,0
+D0168,AC035,2025-05-29,34,Navigation,Oil leak detected,Major,Inspection,0
+D0169,AC003,2026-10-11,53,Fuselage,Brake wear beyond limit,Major,Automated Monitoring,0
+D0170,AC015,2025-08-15,27,Flight Controls,Hydraulic pressure low,Minor,Line Mechanic,0
+D0171,AC026,2026-07-03,29,Hydraulic Power,Intermittent warning light,Minor,Line Mechanic,0
+D0172,AC003,2026-06-16,72,Engine,Brake wear beyond limit,Minor,Automated Monitoring,0
+D0173,AC034,2026-05-25,72,Engine,Fuel flow fluctuation,Major,Cabin Crew,0
+D0174,AC029,2026-09-22,49,APU,Intermittent warning light,Major,Cabin Crew,0
+D0175,AC003,2025-09-30,49,APU,Excessive wear,Minor,Automated Monitoring,0
+D0176,AC007,2026-06-16,32,Landing Gear,Excessive wear,Minor,Line Mechanic,0
+D0177,AC032,2026-03-24,72,Engine,Sensor fault message,Minor,Automated Monitoring,0
+D0178,AC013,2026-07-22,21,Air Conditioning,Intermittent warning light,Major,Inspection,0
+D0179,AC016,2026-03-30,27,Flight Controls,Oil leak detected,Minor,Automated Monitoring,0
+D0180,AC011,2026-09-04,72,Engine,Excessive wear,Minor,Automated Monitoring,0
+D0181,AC004,2025-08-20,79,Oil,Excessive wear,Minor,Inspection,0
+D0182,AC037,2025-05-23,28,Fuel,Abnormal temperature reading,Minor,Cabin Crew,0
+D0183,AC040,2025-05-30,31,Indicating/Recording,Oil leak detected,Minor,Inspection,0
+D0184,AC029,2025-11-18,24,Electrical Power,Excessive wear,Major,Line Mechanic,0
+D0185,AC029,2026-01-14,34,Navigation,Oil leak detected,Minor,Pilot,0
+D0186,AC019,2026-10-12,49,APU,Sensor fault message,Major,Pilot,0
+D0187,AC025,2026-03-26,52,Doors,Sensor fault message,Minor,Automated Monitoring,0
+D0188,AC028,2026-04-13,79,Oil,Corrosion found,Minor,Pilot,0
+D0189,AC024,2026-01-07,53,Fuselage,Vibration above limits,Minor,Automated Monitoring,0
+D0190,AC014,2026-07-16,36,Pneumatic,Corrosion found,Major,Inspection,0
+D0191,AC031,2025-07-15,73,Engine Fuel & Control,Bird strike damage,Minor,Cabin Crew,0
+D0192,AC005,2026-02-24,31,Indicating/Recording,Oil leak detected,Minor,Inspection,0
+D0193,AC007,2026-05-29,34,Navigation,Worn component found during inspection,Major,Line Mechanic,0
+D0194,AC005,2026-09-12,36,Pneumatic,Bird strike damage,Minor,Cabin Crew,0
+D0195,AC016,2025-07-31,53,Fuselage,Oil leak detected,Major,Cabin Crew,0
+D0196,AC033,2026-04-29,72,Engine,Vibration above limits,Minor,Inspection,0
+D0197,AC027,2025-09-01,32,Landing Gear,Vibration above limits,Minor,Line Mechanic,0
+D0198,AC028,2026-10-11,36,Pneumatic,Oil leak detected,Minor,Inspection,0
+D0199,AC029,2025-06-06,29,Hydraulic Power,Sensor fault message,Major,Inspection,0
+D0200,AC034,2025-05-18,29,Hydraulic Power,Corrosion found,Minor,Inspection,0
+D0201,AC030,2026-02-28,28,Fuel,Intermittent warning light,Major,Automated Monitoring,0
+D0202,AC011,2025-09-01,27,Flight Controls,Hydraulic pressure low,Major,Cabin Crew,0
+D0203,AC028,2025-06-09,49,APU,Excessive wear,Minor,Pilot,0
+D0204,AC036,2025-11-19,28,Fuel,Vibration above limits,Minor,Pilot,0
+D0205,AC010,2026-10-22,32,Landing Gear,Bird strike damage,Major,Line Mechanic,0
+D0206,AC027,2026-03-19,34,Navigation,Excessive wear,Major,Pilot,0
+D0207,AC039,2026-04-10,36,Pneumatic,Sensor fault message,Minor,Automated Monitoring,0
+D0208,AC013,2026-03-03,29,Hydraulic Power,Worn component found during inspection,Critical,Cabin Crew,0
+D0209,AC023,2026-05-05,27,Flight Controls,Abnormal temperature reading,Major,Pilot,0
+D0210,AC029,2025-10-13,32,Landing Gear,Corrosion found,Minor,Pilot,0
+D0211,AC006,2025-09-26,29,Hydraulic Power,Fuel flow fluctuation,Minor,Inspection,0
+D0212,AC013,2025-12-20,52,Doors,Oil leak detected,Minor,Cabin Crew,0
+D0213,AC022,2026-04-10,72,Engine,Worn component found during inspection,Major,Inspection,0
+D0214,AC014,2026-10-18,24,Electrical Power,Brake wear beyond limit,Major,Line Mechanic,0
+D0215,AC001,2026-05-10,21,Air Conditioning,Abnormal temperature reading,Major,Cabin Crew,0
+D0216,AC023,2026-03-08,72,Engine,Intermittent warning light,Critical,Automated Monitoring,0
+D0217,AC040,2025-05-23,49,APU,Sensor fault message,Minor,Cabin Crew,0
+D0218,AC028,2026-08-13,27,Flight Controls,Excessive wear,Major,Cabin Crew,0
+D0219,AC023,2025-06-04,79,Oil,Corrosion found,Major,Automated Monitoring,0
+D0220,AC021,2025-12-22,32,Landing Gear,Vibration above limits,Major,Pilot,0
+D0221,AC034,2025-08-27,53,Fuselage,Brake wear beyond limit,Minor,Line Mechanic,0
+D0222,AC002,2025-12-15,52,Doors,Bird strike damage,Minor,Automated Monitoring,0
+D0223,AC039,2026-09-05,32,Landing Gear,Bird strike damage,Minor,Line Mechanic,0
+D0224,AC034,2026-05-27,36,Pneumatic,Fuel flow fluctuation,Major,Inspection,0
+D0225,AC024,2026-02-07,73,Engine Fuel & Control,Vibration above limits,Minor,Automated Monitoring,0
+D0226,AC013,2026-09-07,34,Navigation,Bird strike damage,Minor,Pilot,0
+D0227,AC017,2026-01-29,24,Electrical Power,Bird strike damage,Minor,Cabin Crew,0
+D0228,AC016,2026-05-06,31,Indicating/Recording,Sensor fault message,Minor,Cabin Crew,0
+D0229,AC005,2025-08-28,53,Fuselage,Brake wear beyond limit,Minor,Inspection,0
+D0230,AC013,2025-07-25,53,Fuselage,Corrosion found,Major,Automated Monitoring,0
+D0231,AC024,2026-10-19,52,Doors,Abnormal temperature reading,Minor,Line Mechanic,0
+D0232,AC038,2026-10-17,73,Engine Fuel & Control,Abnormal temperature reading,Major,Line Mechanic,0
+D0233,AC018,2026-04-12,72,Engine,Corrosion found,Minor,Cabin Crew,0
+D0234,AC032,2026-10-06,31,Indicating/Recording,Sensor fault message,Minor,Automated Monitoring,0
+D0235,AC035,2025-07-01,34,Navigation,Vibration above limits,Minor,Inspection,0
+D0236,AC014,2026-10-04,32,Landing Gear,Oil leak detected,Minor,Cabin Crew,0
+D0237,AC012,2026-06-06,27,Flight Controls,Worn component found during inspection,Major,Pilot,0
+D0238,AC031,2025-10-21,32,Landing Gear,Sensor fault message,Minor,Automated Monitoring,0
+D0239,AC005,2026-05-29,34,Navigation,Oil leak detected,Major,Line Mechanic,0
+D0240,AC021,2025-06-01,72,Engine,Corrosion found,Critical,Inspection,0
+D0241,AC022,2026-04-13,31,Indicating/Recording,Intermittent warning light,Minor,Inspection,0
+D0242,AC028,2025-10-13,34,Navigation,Intermittent warning light,Major,Inspection,0
+D0243,AC017,2025-06-23,28,Fuel,Brake wear beyond limit,Critical,Inspection,1
+D0244,AC019,2026-07-19,34,Navigation,Vibration above limits,Minor,Inspection,0
+D0245,AC011,2025-06-20,34,Navigation,Brake wear beyond limit,Minor,Pilot,0
+D0246,AC003,2026-08-17,72,Engine,Fuel flow fluctuation,Critical,Automated Monitoring,1
+D0247,AC021,2025-07-03,32,Landing Gear,Fuel flow fluctuation,Major,Cabin Crew,0
+D0248,AC034,2025-09-01,34,Navigation,Oil leak detected,Critical,Line Mechanic,1
+D0249,AC014,2026-05-04,49,APU,Corrosion found,Minor,Automated Monitoring,0
+D0250,AC002,2025-12-07,53,Fuselage,Corrosion found,Minor,Inspection,0
+D0251,AC024,2026-01-20,28,Fuel,Intermittent warning light,Minor,Cabin Crew,0
+D0252,AC013,2026-08-05,27,Flight Controls,Brake wear beyond limit,Major,Inspection,0
+D0253,AC032,2025-07-08,24,Electrical Power,Abnormal temperature reading,Minor,Inspection,0
+D0254,AC033,2025-12-25,49,APU,Excessive wear,Minor,Inspection,0
+D0255,AC008,2026-06-11,52,Doors,Corrosion found,Minor,Cabin Crew,0
+D0256,AC015,2026-03-25,27,Flight Controls,Intermittent warning light,Critical,Inspection,1
+D0257,AC028,2025-10-15,79,Oil,Hydraulic pressure low,Minor,Cabin Crew,0
+D0258,AC010,2025-07-11,32,Landing Gear,Intermittent warning light,Major,Pilot,0
+D0259,AC038,2025-11-22,31,Indicating/Recording,Corrosion found,Major,Line Mechanic,0
+D0260,AC035,2025-08-02,28,Fuel,Excessive wear,Minor,Pilot,0
+D0261,AC017,2025-11-10,32,Landing Gear,Intermittent warning light,Critical,Cabin Crew,1
+D0262,AC011,2025-12-03,36,Pneumatic,Hydraulic pressure low,Minor,Inspection,0
+D0263,AC035,2026-01-24,72,Engine,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0264,AC006,2026-04-20,79,Oil,Intermittent warning light,Minor,Pilot,0
+D0265,AC013,2025-06-09,29,Hydraulic Power,Brake wear beyond limit,Minor,Inspection,0
+D0266,AC019,2026-05-14,34,Navigation,Worn component found during inspection,Major,Inspection,0
+D0267,AC023,2025-08-13,53,Fuselage,Excessive wear,Major,Inspection,0
+D0268,AC002,2026-04-11,53,Fuselage,Bird strike damage,Major,Inspection,0
+D0269,AC026,2025-08-17,27,Flight Controls,Fuel flow fluctuation,Major,Line Mechanic,0
+D0270,AC005,2025-12-28,28,Fuel,Oil leak detected,Minor,Cabin Crew,0
+D0271,AC038,2026-06-11,29,Hydraulic Power,Abnormal temperature reading,Minor,Pilot,0
+D0272,AC023,2026-05-06,72,Engine,Worn component found during inspection,Minor,Inspection,0
+D0273,AC038,2026-07-31,36,Pneumatic,Abnormal temperature reading,Minor,Pilot,0
+D0274,AC004,2025-07-31,53,Fuselage,Corrosion found,Minor,Inspection,0
+D0275,AC022,2026-04-24,34,Navigation,Intermittent warning light,Minor,Cabin Crew,0
+D0276,AC039,2026-02-26,49,APU,Excessive wear,Minor,Automated Monitoring,0
+D0277,AC033,2025-09-06,21,Air Conditioning,Fuel flow fluctuation,Major,Pilot,0
+D0278,AC024,2026-02-23,79,Oil,Vibration above limits,Minor,Automated Monitoring,0
+D0279,AC024,2025-09-21,32,Landing Gear,Worn component found during inspection,Minor,Automated Monitoring,0
+D0280,AC011,2026-07-24,34,Navigation,Corrosion found,Minor,Cabin Crew,0
+D0281,AC029,2026-05-22,32,Landing Gear,Fuel flow fluctuation,Minor,Pilot,0
+D0282,AC023,2025-06-19,31,Indicating/Recording,Vibration above limits,Minor,Line Mechanic,0
+D0283,AC022,2026-08-08,27,Flight Controls,Corrosion found,Major,Pilot,0
+D0284,AC011,2025-09-20,29,Hydraulic Power,Sensor fault message,Minor,Line Mechanic,0
+D0285,AC013,2025-10-04,79,Oil,Sensor fault message,Minor,Cabin Crew,0
+D0286,AC006,2025-09-18,73,Engine Fuel & Control,Intermittent warning light,Minor,Automated Monitoring,0
+D0287,AC004,2025-06-07,21,Air Conditioning,Vibration above limits,Major,Inspection,0
+D0288,AC026,2025-05-24,28,Fuel,Abnormal temperature reading,Major,Cabin Crew,0
+D0289,AC027,2025-12-30,79,Oil,Oil leak detected,Major,Pilot,0
+D0290,AC040,2026-11-05,72,Engine,Vibration above limits,Critical,Line Mechanic,1
+D0291,AC021,2026-07-18,34,Navigation,Vibration above limits,Major,Line Mechanic,0
+D0292,AC004,2026-04-08,21,Air Conditioning,Vibration above limits,Minor,Line Mechanic,0
+D0293,AC001,2026-07-25,73,Engine Fuel & Control,Fuel flow fluctuation,Major,Inspection,0
+D0294,AC003,2025-11-26,24,Electrical Power,Bird strike damage,Major,Automated Monitoring,0
+D0295,AC016,2026-04-04,31,Indicating/Recording,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0296,AC009,2025-09-26,29,Hydraulic Power,Worn component found during inspection,Minor,Cabin Crew,0
+D0297,AC029,2026-08-06,28,Fuel,Hydraulic pressure low,Minor,Cabin Crew,0
+D0298,AC038,2026-07-16,73,Engine Fuel & Control,Brake wear beyond limit,Minor,Line Mechanic,0
+D0299,AC015,2026-06-12,28,Fuel,Corrosion found,Critical,Automated Monitoring,1
+D0300,AC035,2026-04-04,36,Pneumatic,Excessive wear,Minor,Inspection,0
+D0301,AC006,2025-11-27,24,Electrical Power,Fuel flow fluctuation,Minor,Automated Monitoring,0
+D0302,AC036,2025-08-05,72,Engine,Brake wear beyond limit,Major,Automated Monitoring,0
+D0303,AC039,2025-07-27,79,Oil,Vibration above limits,Minor,Line Mechanic,0
+D0304,AC028,2025-12-17,72,Engine,Abnormal temperature reading,Minor,Automated Monitoring,0
+D0305,AC029,2025-05-30,21,Air Conditioning,Hydraulic pressure low,Minor,Cabin Crew,0
+D0306,AC010,2026-10-13,24,Electrical Power,Excessive wear,Minor,Cabin Crew,0
+D0307,AC039,2026-05-25,73,Engine Fuel & Control,Abnormal temperature reading,Minor,Inspection,0
+D0308,AC039,2025-08-15,73,Engine Fuel & Control,Intermittent warning light,Minor,Pilot,0
+D0309,AC014,2026-06-04,53,Fuselage,Abnormal temperature reading,Minor,Cabin Crew,0
+D0310,AC022,2026-03-07,32,Landing Gear,Bird strike damage,Major,Inspection,0
+D0311,AC009,2026-04-10,36,Pneumatic,Excessive wear,Major,Line Mechanic,0
+D0312,AC002,2026-07-11,53,Fuselage,Excessive wear,Major,Line Mechanic,0
+D0313,AC017,2026-06-07,31,Indicating/Recording,Oil leak detected,Major,Pilot,0
+D0314,AC005,2025-07-18,73,Engine Fuel & Control,Oil leak detected,Major,Line Mechanic,0
+D0315,AC032,2026-06-02,31,Indicating/Recording,Bird strike damage,Major,Automated Monitoring,0
+D0316,AC040,2026-07-12,31,Indicating/Recording,Sensor fault message,Minor,Pilot,0
+D0317,AC003,2026-10-09,24,Electrical Power,Brake wear beyond limit,Minor,Cabin Crew,0
+D0318,AC015,2025-08-10,79,Oil,Intermittent warning light,Minor,Line Mechanic,0
+D0319,AC038,2026-01-21,27,Flight Controls,Sensor fault message,Minor,Pilot,0
+D0320,AC039,2026-05-31,34,Navigation,Brake wear beyond limit,Minor,Line Mechanic,0
+D0321,AC024,2025-09-04,73,Engine Fuel & Control,Vibration above limits,Major,Pilot,0
+D0322,AC025,2026-09-10,29,Hydraulic Power,Vibration above limits,Minor,Line Mechanic,0
+D0323,AC017,2026-03-10,72,Engine,Oil leak detected,Minor,Automated Monitoring,0
+D0324,AC020,2025-08-26,79,Oil,Fuel flow fluctuation,Major,Cabin Crew,0
+D0325,AC018,2025-05-31,79,Oil,Corrosion found,Minor,Automated Monitoring,0
+D0326,AC032,2026-08-08,73,Engine Fuel & Control,Abnormal temperature reading,Minor,Automated Monitoring,0
+D0327,AC035,2026-09-30,52,Doors,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0328,AC007,2025-08-18,79,Oil,Sensor fault message,Minor,Line Mechanic,0
+D0329,AC017,2026-03-31,49,APU,Vibration above limits,Critical,Pilot,1
+D0330,AC004,2025-10-19,72,Engine,Fuel flow fluctuation,Major,Cabin Crew,0
+D0331,AC021,2026-10-02,36,Pneumatic,Excessive wear,Minor,Cabin Crew,0
+D0332,AC033,2025-09-26,53,Fuselage,Bird strike damage,Major,Cabin Crew,0
+D0333,AC032,2025-11-24,21,Air Conditioning,Oil leak detected,Major,Inspection,0
+D0334,AC017,2025-09-27,28,Fuel,Oil leak detected,Minor,Pilot,0
+D0335,AC029,2025-05-25,27,Flight Controls,Oil leak detected,Major,Line Mechanic,0
+D0336,AC019,2026-03-12,32,Landing Gear,Sensor fault message,Minor,Pilot,0
+D0337,AC039,2025-12-09,52,Doors,Worn component found during inspection,Minor,Cabin Crew,0
+D0338,AC039,2026-10-11,72,Engine,Corrosion found,Minor,Line Mechanic,0
+D0339,AC006,2025-08-15,28,Fuel,Hydraulic pressure low,Minor,Inspection,0
+D0340,AC006,2026-01-20,53,Fuselage,Sensor fault message,Minor,Inspection,0
+D0341,AC013,2025-06-08,24,Electrical Power,Brake wear beyond limit,Critical,Cabin Crew,1
+D0342,AC040,2026-03-31,24,Electrical Power,Sensor fault message,Minor,Inspection,0
+D0343,AC030,2025-06-06,73,Engine Fuel & Control,Worn component found during inspection,Minor,Cabin Crew,0
+D0344,AC013,2026-08-22,27,Flight Controls,Brake wear beyond limit,Major,Line Mechanic,0
+D0345,AC028,2026-01-21,27,Flight Controls,Brake wear beyond limit,Minor,Cabin Crew,0
+D0346,AC032,2026-08-16,28,Fuel,Sensor fault message,Minor,Inspection,0
+D0347,AC004,2026-05-15,32,Landing Gear,Corrosion found,Minor,Pilot,0
+D0348,AC014,2026-08-17,21,Air Conditioning,Hydraulic pressure low,Minor,Pilot,0
+D0349,AC017,2025-09-25,29,Hydraulic Power,Hydraulic pressure low,Minor,Line Mechanic,0
+D0350,AC030,2026-06-19,28,Fuel,Oil leak detected,Major,Cabin Crew,0
+D0351,AC001,2026-09-09,28,Fuel,Brake wear beyond limit,Minor,Cabin Crew,0
+D0352,AC038,2026-05-17,79,Oil,Fuel flow fluctuation,Major,Pilot,0
+D0353,AC005,2025-06-19,36,Pneumatic,Bird strike damage,Minor,Automated Monitoring,0
+D0354,AC013,2026-10-18,27,Flight Controls,Sensor fault message,Critical,Pilot,1
+D0355,AC005,2026-01-01,27,Flight Controls,Bird strike damage,Minor,Automated Monitoring,0
+D0356,AC011,2026-03-23,31,Indicating/Recording,Hydraulic pressure low,Minor,Cabin Crew,0
+D0357,AC020,2025-08-05,73,Engine Fuel & Control,Intermittent warning light,Critical,Inspection,1
+D0358,AC035,2026-01-12,29,Hydraulic Power,Oil leak detected,Minor,Cabin Crew,0
+D0359,AC014,2025-11-18,52,Doors,Brake wear beyond limit,Minor,Pilot,0
+D0360,AC010,2025-12-28,52,Doors,Intermittent warning light,Major,Line Mechanic,0
+D0361,AC018,2025-12-15,32,Landing Gear,Excessive wear,Minor,Line Mechanic,0
+D0362,AC012,2026-03-08,36,Pneumatic,Sensor fault message,Major,Pilot,0
+D0363,AC039,2025-12-22,34,Navigation,Vibration above limits,Minor,Line Mechanic,0
+D0364,AC035,2025-08-28,52,Doors,Corrosion found,Major,Line Mechanic,0
+D0365,AC035,2025-07-25,52,Doors,Excessive wear,Minor,Automated Monitoring,0
+D0366,AC030,2026-04-27,28,Fuel,Fuel flow fluctuation,Major,Pilot,0
+D0367,AC023,2025-10-19,53,Fuselage,Brake wear beyond limit,Major,Inspection,0
+D0368,AC020,2026-06-27,53,Fuselage,Abnormal temperature reading,Minor,Inspection,0
+D0369,AC009,2026-10-14,53,Fuselage,Sensor fault message,Minor,Automated Monitoring,0
+D0370,AC040,2026-08-03,53,Fuselage,Corrosion found,Minor,Line Mechanic,0
+D0371,AC040,2026-08-04,53,Fuselage,Excessive wear,Minor,Automated Monitoring,0
+D0372,AC020,2025-06-24,29,Hydraulic Power,Sensor fault message,Minor,Automated Monitoring,0
+D0373,AC035,2026-11-01,36,Pneumatic,Brake wear beyond limit,Minor,Cabin Crew,0
+D0374,AC005,2025-06-01,31,Indicating/Recording,Abnormal temperature reading,Major,Inspection,0
+D0375,AC019,2025-12-11,24,Electrical Power,Excessive wear,Minor,Automated Monitoring,0
+D0376,AC021,2026-09-28,32,Landing Gear,Oil leak detected,Minor,Inspection,0
+D0377,AC030,2026-02-05,73,Engine Fuel & Control,Brake wear beyond limit,Major,Cabin Crew,0
+D0378,AC011,2026-04-22,49,APU,Abnormal temperature reading,Major,Inspection,0
+D0379,AC015,2025-12-22,24,Electrical Power,Oil leak detected,Minor,Cabin Crew,0
+D0380,AC003,2025-07-31,72,Engine,Brake wear beyond limit,Minor,Automated Monitoring,0
+D0381,AC008,2025-12-08,34,Navigation,Abnormal temperature reading,Minor,Line Mechanic,0
+D0382,AC002,2025-11-25,24,Electrical Power,Intermittent warning light,Minor,Inspection,0
+D0383,AC021,2025-11-08,34,Navigation,Corrosion found,Minor,Pilot,0
+D0384,AC023,2026-08-24,31,Indicating/Recording,Bird strike damage,Critical,Line Mechanic,0
+D0385,AC035,2026-05-20,27,Flight Controls,Bird strike damage,Major,Cabin Crew,0
+D0386,AC036,2026-07-28,28,Fuel,Oil leak detected,Minor,Pilot,0
+D0387,AC001,2026-06-14,79,Oil,Excessive wear,Major,Cabin Crew,0
+D0388,AC027,2026-03-07,72,Engine,Oil leak detected,Major,Cabin Crew,0
+D0389,AC033,2026-06-15,52,Doors,Sensor fault message,Major,Line Mechanic,0
+D0390,AC017,2026-04-20,24,Electrical Power,Hydraulic pressure low,Minor,Inspection,0
+D0391,AC024,2026-06-26,73,Engine Fuel & Control,Worn component found during inspection,Minor,Pilot,0
+D0392,AC031,2026-04-17,52,Doors,Intermittent warning light,Critical,Cabin Crew,1
+D0393,AC010,2025-12-01,49,APU,Bird strike damage,Major,Inspection,0
+D0394,AC027,2026-09-16,36,Pneumatic,Oil leak detected,Minor,Inspection,0
+D0395,AC013,2026-06-27,28,Fuel,Brake wear beyond limit,Major,Line Mechanic,0
+D0396,AC019,2026-06-15,52,Doors,Excessive wear,Minor,Pilot,0
+D0397,AC003,2025-06-07,36,Pneumatic,Vibration above limits,Minor,Inspection,0
+D0398,AC016,2025-05-23,53,Fuselage,Abnormal temperature reading,Minor,Cabin Crew,0
+D0399,AC030,2026-05-17,27,Flight Controls,Hydraulic pressure low,Minor,Line Mechanic,0
+D0400,AC030,2026-08-29,36,Pneumatic,Corrosion found,Minor,Automated Monitoring,0
+D0401,AC027,2026-03-24,27,Flight Controls,Bird strike damage,Major,Line Mechanic,0
+D0402,AC008,2025-05-31,21,Air Conditioning,Oil leak detected,Minor,Line Mechanic,0
+D0403,AC028,2026-08-30,28,Fuel,Intermittent warning light,Minor,Line Mechanic,0
+D0404,AC039,2025-07-03,32,Landing Gear,Brake wear beyond limit,Major,Automated Monitoring,0
+D0405,AC001,2026-04-10,73,Engine Fuel & Control,Hydraulic pressure low,Major,Line Mechanic,0
+D0406,AC005,2025-11-08,28,Fuel,Vibration above limits,Minor,Line Mechanic,0
+D0407,AC037,2025-10-16,29,Hydraulic Power,Oil leak detected,Major,Automated Monitoring,0
+D0408,AC036,2026-01-03,79,Oil,Sensor fault message,Minor,Automated Monitoring,0
+D0409,AC005,2026-10-17,29,Hydraulic Power,Oil leak detected,Critical,Pilot,1
+D0410,AC005,2025-09-30,79,Oil,Sensor fault message,Minor,Automated Monitoring,0
+D0411,AC040,2025-12-15,49,APU,Bird strike damage,Minor,Automated Monitoring,0
+D0412,AC024,2026-01-27,52,Doors,Corrosion found,Minor,Line Mechanic,0
+D0413,AC039,2026-08-03,27,Flight Controls,Bird strike damage,Minor,Pilot,0
+D0414,AC040,2026-06-18,73,Engine Fuel & Control,Abnormal temperature reading,Minor,Pilot,0
+D0415,AC027,2026-05-10,34,Navigation,Hydraulic pressure low,Major,Line Mechanic,0
+D0416,AC016,2026-03-27,31,Indicating/Recording,Worn component found during inspection,Minor,Automated Monitoring,0
+D0417,AC005,2025-12-16,27,Flight Controls,Hydraulic pressure low,Minor,Pilot,0
+D0418,AC004,2026-05-02,72,Engine,Corrosion found,Minor,Pilot,0
+D0419,AC034,2026-10-21,29,Hydraulic Power,Vibration above limits,Minor,Cabin Crew,0
+D0420,AC021,2025-07-12,53,Fuselage,Oil leak detected,Minor,Automated Monitoring,0
+D0421,AC004,2026-05-25,49,APU,Vibration above limits,Minor,Pilot,0
+D0422,AC035,2025-09-18,28,Fuel,Intermittent warning light,Critical,Pilot,1
+D0423,AC010,2025-11-11,27,Flight Controls,Brake wear beyond limit,Minor,Inspection,0
+D0424,AC037,2026-05-04,27,Flight Controls,Bird strike damage,Minor,Pilot,0
+D0425,AC039,2025-11-17,52,Doors,Hydraulic pressure low,Major,Inspection,0
+D0426,AC020,2026-10-12,27,Flight Controls,Fuel flow fluctuation,Minor,Inspection,0
+D0427,AC002,2025-09-25,27,Flight Controls,Excessive wear,Minor,Line Mechanic,0
+D0428,AC018,2026-04-19,31,Indicating/Recording,Vibration above limits,Critical,Line Mechanic,1
+D0429,AC026,2026-01-14,31,Indicating/Recording,Sensor fault message,Major,Inspection,0
+D0430,AC003,2026-11-03,29,Hydraulic Power,Intermittent warning light,Critical,Inspection,1
+D0431,AC029,2026-08-23,79,Oil,Brake wear beyond limit,Minor,Pilot,0
+D0432,AC034,2025-12-27,73,Engine Fuel & Control,Fuel flow fluctuation,Minor,Automated Monitoring,0
+D0433,AC036,2026-04-15,24,Electrical Power,Worn component found during inspection,Minor,Cabin Crew,0
+D0434,AC018,2026-11-01,29,Hydraulic Power,Oil leak detected,Minor,Line Mechanic,0
+D0435,AC015,2026-04-17,52,Doors,Excessive wear,Minor,Inspection,0
+D0436,AC017,2026-06-20,21,Air Conditioning,Excessive wear,Minor,Inspection,0
+D0437,AC013,2026-03-13,72,Engine,Brake wear beyond limit,Major,Automated Monitoring,0
+D0438,AC034,2026-03-07,52,Doors,Worn component found during inspection,Major,Cabin Crew,0
+D0439,AC035,2026-09-21,73,Engine Fuel & Control,Vibration above limits,Critical,Cabin Crew,0
+D0440,AC022,2026-03-08,29,Hydraulic Power,Intermittent warning light,Minor,Pilot,0
+D0441,AC025,2026-06-24,21,Air Conditioning,Worn component found during inspection,Major,Pilot,0
+D0442,AC021,2025-11-19,73,Engine Fuel & Control,Oil leak detected,Minor,Line Mechanic,0
+D0443,AC016,2025-06-13,53,Fuselage,Worn component found during inspection,Minor,Pilot,0
+D0444,AC014,2026-05-19,53,Fuselage,Sensor fault message,Critical,Cabin Crew,1
+D0445,AC008,2026-10-06,27,Flight Controls,Intermittent warning light,Minor,Inspection,0
+D0446,AC025,2026-07-24,34,Navigation,Abnormal temperature reading,Major,Inspection,0
+D0447,AC008,2026-05-05,52,Doors,Intermittent warning light,Minor,Cabin Crew,0
+D0448,AC010,2025-12-25,72,Engine,Vibration above limits,Minor,Cabin Crew,0
+D0449,AC028,2025-07-03,32,Landing Gear,Worn component found during inspection,Major,Automated Monitoring,0
+D0450,AC017,2026-01-21,53,Fuselage,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0451,AC039,2026-10-22,72,Engine,Corrosion found,Critical,Inspection,0
+D0452,AC028,2025-10-13,21,Air Conditioning,Hydraulic pressure low,Major,Automated Monitoring,0
+D0453,AC005,2025-12-23,21,Air Conditioning,Sensor fault message,Minor,Inspection,0
+D0454,AC037,2026-01-11,21,Air Conditioning,Brake wear beyond limit,Minor,Inspection,0
+D0455,AC007,2026-03-26,49,APU,Fuel flow fluctuation,Minor,Automated Monitoring,0
+D0456,AC038,2026-07-20,72,Engine,Excessive wear,Major,Automated Monitoring,0
+D0457,AC023,2026-07-23,52,Doors,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0458,AC010,2025-12-13,27,Flight Controls,Abnormal temperature reading,Major,Line Mechanic,0
+D0459,AC028,2025-10-10,72,Engine,Worn component found during inspection,Major,Pilot,0
+D0460,AC035,2025-06-13,52,Doors,Worn component found during inspection,Major,Pilot,0
+D0461,AC032,2026-09-19,52,Doors,Worn component found during inspection,Minor,Line Mechanic,0
+D0462,AC011,2025-12-01,36,Pneumatic,Bird strike damage,Critical,Inspection,1
+D0463,AC018,2026-04-14,36,Pneumatic,Intermittent warning light,Minor,Cabin Crew,0
+D0464,AC019,2026-08-05,53,Fuselage,Brake wear beyond limit,Major,Automated Monitoring,0
+D0465,AC038,2026-10-02,34,Navigation,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0466,AC029,2025-05-24,29,Hydraulic Power,Brake wear beyond limit,Minor,Pilot,0
+D0467,AC024,2025-08-15,36,Pneumatic,Oil leak detected,Major,Inspection,0
+D0468,AC019,2025-10-06,21,Air Conditioning,Worn component found during inspection,Major,Inspection,0
+D0469,AC024,2026-04-22,28,Fuel,Sensor fault message,Minor,Line Mechanic,0
+D0470,AC039,2026-10-01,28,Fuel,Sensor fault message,Minor,Pilot,0
+D0471,AC002,2026-11-07,29,Hydraulic Power,Vibration above limits,Minor,Inspection,0
+D0472,AC019,2026-10-26,52,Doors,Sensor fault message,Minor,Line Mechanic,0
+D0473,AC021,2026-01-15,34,Navigation,Excessive wear,Critical,Pilot,1
+D0474,AC030,2026-02-10,31,Indicating/Recording,Abnormal temperature reading,Minor,Line Mechanic,0
+D0475,AC003,2026-10-11,24,Electrical Power,Oil leak detected,Minor,Pilot,0
+D0476,AC006,2025-11-02,31,Indicating/Recording,Sensor fault message,Minor,Pilot,0
+D0477,AC040,2026-01-30,52,Doors,Intermittent warning light,Minor,Inspection,0
+D0478,AC015,2025-09-20,52,Doors,Sensor fault message,Minor,Cabin Crew,0
+D0479,AC012,2026-07-16,36,Pneumatic,Intermittent warning light,Minor,Inspection,0
+D0480,AC030,2025-08-07,29,Hydraulic Power,Excessive wear,Minor,Cabin Crew,0
+D0481,AC012,2026-10-13,31,Indicating/Recording,Brake wear beyond limit,Minor,Pilot,0
+D0482,AC020,2025-09-30,32,Landing Gear,Fuel flow fluctuation,Minor,Line Mechanic,0
+D0483,AC016,2026-04-28,32,Landing Gear,Corrosion found,Minor,Cabin Crew,0
+D0484,AC021,2026-06-21,24,Electrical Power,Brake wear beyond limit,Minor,Pilot,0
+D0485,AC004,2025-12-20,72,Engine,Intermittent warning light,Minor,Line Mechanic,0
+D0486,AC027,2026-04-11,28,Fuel,Bird strike damage,Minor,Cabin Crew,0
+D0487,AC012,2025-07-24,34,Navigation,Brake wear beyond limit,Minor,Pilot,0
+D0488,AC039,2026-03-27,27,Flight Controls,Corrosion found,Major,Cabin Crew,0
+D0489,AC005,2026-04-11,49,APU,Corrosion found,Major,Cabin Crew,0
+D0490,AC039,2025-09-21,34,Navigation,Oil leak detected,Minor,Pilot,0
+D0491,AC009,2026-08-17,24,Electrical Power,Worn component found during inspection,Major,Cabin Crew,0
+D0492,AC022,2025-08-08,34,Navigation,Intermittent warning light,Minor,Inspection,0
+D0493,AC005,2025-07-21,28,Fuel,Worn component found during inspection,Major,Line Mechanic,0
+D0494,AC030,2026-10-07,24,Electrical Power,Vibration above limits,Major,Inspection,0
+D0495,AC028,2025-09-25,24,Electrical Power,Brake wear beyond limit,Major,Pilot,0
+D0496,AC007,2025-10-30,24,Electrical Power,Excessive wear,Critical,Inspection,1
+D0497,AC029,2026-02-20,29,Hydraulic Power,Sensor fault message,Minor,Cabin Crew,0
+D0498,AC019,2025-12-07,31,Indicating/Recording,Intermittent warning light,Minor,Pilot,0
+D0499,AC034,2025-06-14,72,Engine,Fuel flow fluctuation,Major,Pilot,0
+D0500,AC012,2025-08-09,31,Indicating/Recording,Excessive wear,Minor,Pilot,0

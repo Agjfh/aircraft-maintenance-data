@@ -13,7 +13,7 @@ FROM work_orders w JOIN aircraft a USING(aircraft_id) JOIN defect_reports d USIN
 JOIN technicians t USING(technician_id) JOIN parts_inventory p USING(part_id)
 WHERE w.status IN ('Open','In Progress') ORDER BY w.priority;
 
--- 4) Defects per ATA system
+-- 4) Defects per ATA system (which systems fail most)
 SELECT system, COUNT(*) AS defects, SUM(severity='Critical') AS critical FROM defect_reports GROUP BY system ORDER BY defects DESC;
 
 -- 5) Real FAA reports about the A320 by system
