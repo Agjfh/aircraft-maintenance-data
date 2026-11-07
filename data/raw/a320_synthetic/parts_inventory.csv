@@ -1,0 +1,25 @@
+part_id,part_number,name,category,unit_cost_usd,quantity_in_stock,reorder_level,supplier,lead_time_days,shelf_life_months
+P001,PN-18554,Engine Fuel Pump (CFM56),Fuel,18000,6,3,Collins Aerospace,28,120
+P002,PN-25094,Engine-Driven Hydraulic Pump (Green),Hydraulics,21000,1,3,Lufthansa Technik,7,24
+P003,PN-60844,Electric Hydraulic Pump (Yellow),Hydraulics,14500,0,3,Safran,26,24
+P004,PN-52833,Main Wheel Tire (46x16R20),Landing Gear,950,18,8,Safran,31,120
+P005,PN-57036,Carbon Brake Assembly,Landing Gear,28000,11,3,Honeywell,34,24
+P006,PN-92809,Oxygen Mask Set (Passenger),Cabin Safety,320,63,16,AAR Corp,24,60
+P007,PN-54293,IDG (Integrated Drive Generator),Electrical,85000,1,3,GE Aviation,27,24
+P008,PN-22522,Pitot Probe,Avionics,1400,27,6,Collins Aerospace,38,24
+P009,PN-20775,Angle-of-Attack Sensor,Avionics,5200,15,4,AAR Corp,7,
+P010,PN-74909,Weather Radar Transceiver,Avionics,38000,0,3,GE Aviation,22,
+P011,PN-69207,Pack Flow Control Valve,Air Conditioning,9500,8,3,GE Aviation,20,24
+P012,PN-92945,HPT Blade Set (CFM56-5B),Engine,52000,6,3,Safran,10,120
+P013,PN-70410,Igniter Plug,Engine,420,65,18,Collins Aerospace,16,60
+P014,PN-76440,Fan Blade (CFM56-5B),Engine,31000,10,3,Safran,37,24
+P015,PN-78627,Slat/Flap Actuator,Flight Controls,16500,8,3,Honeywell,13,24
+P016,PN-81569,APU Starter Motor (131-9A),APU,9800,2,3,GE Aviation,24,60
+P017,PN-38299,Cabin Pressure Controller (CPC),Pressurization,12400,2,3,Collins Aerospace,8,
+P018,PN-96515,Engine Fire Detection Loop,Fire Protection,2100,5,8,Collins Aerospace,5,60
+P019,PN-94250,Main Battery (Ni-Cd),Electrical,2600,12,4,AAR Corp,20,120
+P020,PN-76373,ELAC/SEC Computer,Flight Controls,45000,1,3,AAR Corp,7,60
+P021,PN-75670,ADIRU,Avionics,62000,0,3,Honeywell,25,
+P022,PN-95415,Cockpit Windshield,Airframe,14200,6,3,Collins Aerospace,17,24
+P023,PN-80226,Engine Oil Filter,Engine,260,122,40,Lufthansa Technik,22,60
+P024,PN-22593,Hydraulic Fluid Skydrol (L),Consumables,35,338,180,Honeywell,30,
