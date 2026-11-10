@@ -1,16 +1,16 @@
 technician_id,name,license_category,specialty,experience_years,shift
-T001,Ahmed Hassan,B1.1 (Mechanical),Avionics,5,Night
+T001,Ahmed Hassan,B2 (Avionics),Avionics,5,Night
 T002,Mohamed Ali,B1.1 (Mechanical),Airframe/Structures,20,Evening
 T003,Mahmoud Saeed,B1.1 (Mechanical),Engines,11,Morning
 T004,Omar Khaled,A (Line),Landing Gear,15,Morning
 T005,Youssef Adel,B1.1 (Mechanical),Landing Gear,12,Morning
-T006,Karim Mostafa,B1.1 (Mechanical),Avionics,20,Night
+T006,Karim Mostafa,B2 (Avionics),Avionics,20,Night
 T007,Hossam Ibrahim,A (Line),Airframe/Structures,24,Night
 T008,Mina Samir,A (Line),Airframe/Structures,20,Morning
 T009,Tarek Nabil,B1.1 (Mechanical),Engines,23,Night
-T010,Ali Fathy,B2 (Avionics),Airframe/Structures,23,Morning
+T010,Ali Fathy,B1.1 (Mechanical),Airframe/Structures,23,Morning
 T011,Sherif Magdy,B1.1 (Mechanical),Airframe/Structures,4,Night
-T012,Islam Gamal,B2 (Avionics),Hydraulics,7,Morning
+T012,Islam Gamal,B1.1 (Mechanical),Hydraulics,7,Morning
 T013,Mostafa Reda,B1.1 (Mechanical),Landing Gear,18,Evening
 T014,Hany Salah,B1.1 (Mechanical),Landing Gear,15,Morning
 T015,Walid Farouk,B2 (Avionics),Electrical,3,Morning

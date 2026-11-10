@@ -1,4 +1,4 @@
-﻿"""Download the published project datasets from GitHub Raw."""
+"""Download the published project datasets from GitHub Raw."""
 from __future__ import annotations
 import pandas as pd
 
@@ -20,6 +20,11 @@ def load_a320_data() -> dict[str, pd.DataFrame]:
         "technicians": read_csv(f"{root}/technicians.csv"),
         "maintenance_schedule": read_csv(f"{root}/maintenance_schedule.csv"),
         "engine_sensor_data": read_csv(f"{root}/engine_sensor_data.csv"),
+        "symptoms": read_csv(f"{root}/symptoms.csv"),
+        "fault_catalog": read_csv(f"{root}/fault_catalog.csv"),
+        "fault_symptoms": read_csv(f"{root}/fault_symptoms.csv"),
+        "defect_symptoms": read_csv(f"{root}/defect_symptoms.csv"),
+        "component_status": read_csv(f"{root}/component_status.csv"),
     }
 
 

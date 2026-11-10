@@ -2,40 +2,40 @@ aircraft_id,registration,model,airline,apu_model,manufacture_year,seats,total_fl
 AC001,SU-GAG,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9A,2023,186,10257,5076,Active,LXR
 AC002,SU-HKA,Airbus A320-214,Air Cairo,Honeywell 131-9A,2015,180,34606,19965,Active,CAI
 AC003,SU-BTT,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9A,2024,186,6714,2840,Active,HRG
-AC004,SU-BTH,Airbus A320-214,Air Cairo,Honeywell 131-9A,2023,180,9663,5655,In Maintenance,HRG
-AC005,SU-GJJ,Airbus A320-214,Nile Air,Honeywell 131-9(A),2009,180,57936,29410,Active,SSH
+AC004,SU-BTH,Airbus A320-214,Air Cairo,Honeywell 131-9A,2023,180,9663,5655,Active,HRG
+AC005,SU-GJJ,Airbus A320-214,Nile Air,Honeywell 131-9(A),2009,180,57936,29410,Grounded (AOG),SSH
 AC006,SU-GZJ,Airbus A320-214 (Sharklets),Nile Air,Honeywell 131-9(A),2007,186,60990,26144,Active,CAI
 AC007,SU-BUZ,Airbus A320-214,Air Cairo,Honeywell 131-9A,2006,180,63200,32000,Active,SSH
 AC008,SU-CDJ,Airbus A320-214 (Sharklets),Nile Air,Honeywell 131-9A,2017,186,26514,16704,Active,HBE
-AC009,SU-BDJ,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9(A),2008,186,59670,27738,In Maintenance,CAI
-AC010,SU-GVK,Airbus A320-214,EgyptAir,Honeywell 131-9A,2007,180,61484,29754,In Maintenance,LXR
+AC009,SU-BDJ,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9(A),2008,186,59670,27738,Active,CAI
+AC010,SU-GVK,Airbus A320-214,EgyptAir,Honeywell 131-9A,2007,180,61484,29754,Active,LXR
 AC011,SU-CEM,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9A,2015,186,32791,14905,Active,HBE
 AC012,SU-HNU,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9(A),2013,186,45630,17394,Active,HBE
 AC013,SU-ACB,Airbus A320-214 (Sharklets),EgyptAir,Honeywell 131-9A,2006,186,69240,29320,Active,SSH
-AC014,SU-GJP,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9(A),2011,186,43980,26310,Grounded (AOG),CAI
+AC014,SU-GJP,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9(A),2011,186,43980,26310,Active,CAI
 AC015,SU-GSN,Airbus A320-214 (Sharklets),Nile Air,Honeywell 131-9(A),2009,186,52411,22780,Active,SSH
 AC016,SU-AAT,Airbus A320-214,Nile Air,Honeywell 131-9A,2003,180,72588,42205,Active,CAI
 AC017,SU-CWM,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9A,2010,186,54752,28080,Active,HBE
 AC018,SU-HYP,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9A,2021,186,15455,7900,Active,HRG
 AC019,SU-BBX,Airbus A320-232,EgyptAir,Honeywell 131-9A,2014,180,34020,19524,Active,CAI
-AC020,SU-BCL,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9(A),2022,186,13576,6836,Active,LXR
+AC020,SU-BCL,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9(A),2022,186,13576,6836,In Maintenance,LXR
 AC021,SU-BYU,Airbus A320-232,Air Cairo,Honeywell 131-9(A),2004,180,74690,33418,Active,HRG
 AC022,SU-HLF,Airbus A320-232,EgyptAir,Honeywell 131-9(A),2003,180,71944,34385,Active,LXR
-AC023,SU-HFB,Airbus A320-214,EgyptAir,Honeywell 131-9A,2005,180,65016,28245,Active,CAI
+AC023,SU-HFB,Airbus A320-214,EgyptAir,Honeywell 131-9A,2005,180,65016,28245,Grounded (AOG),CAI
 AC024,SU-GMG,Airbus A320-232,Red Sea Airlines,Honeywell 131-9A,2015,180,37796,15543,Active,LXR
-AC025,SU-AFL,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9A,2015,186,31933,18821,Active,SSH
+AC025,SU-AFL,Airbus A320-214 (Sharklets),Red Sea Airlines,Honeywell 131-9A,2015,186,31933,18821,In Maintenance,SSH
 AC026,SU-AKW,Airbus A320-232,EgyptAir,Honeywell 131-9A,2015,180,33704,15796,Active,HRG
-AC027,SU-BEN,Airbus A320-214,Air Cairo,Honeywell 131-9(A),2013,180,43355,24232,Active,SSH
-AC028,SU-GLW,Airbus A320-214,EgyptAir,Honeywell 131-9A,2015,180,32208,19789,Active,LXR
+AC027,SU-BEN,Airbus A320-214,Air Cairo,Honeywell 131-9(A),2013,180,43355,24232,In Maintenance,SSH
+AC028,SU-GLW,Airbus A320-214,EgyptAir,Honeywell 131-9A,2015,180,32208,19789,In Maintenance,LXR
 AC029,SU-GYW,Airbus A320-214,Air Cairo,Honeywell 131-9(A),2011,180,50400,20370,Active,HBE
-AC030,SU-GDA,Airbus A320-232,Red Sea Airlines,Honeywell 131-9(A),2018,180,27312,14392,In Maintenance,SSH
+AC030,SU-GDA,Airbus A320-232,Red Sea Airlines,Honeywell 131-9(A),2018,180,27312,14392,Active,SSH
 AC031,SU-ATT,Airbus A320-232,Red Sea Airlines,Honeywell 131-9A,2015,180,37873,19855,Active,HBE
 AC032,SU-HTB,Airbus A320-214,Nile Air,Honeywell 131-9A,2017,180,31662,13248,Active,SSH
 AC033,SU-HDZ,Airbus A320-214 (Sharklets),EgyptAir,Honeywell 131-9A,2020,186,20070,10092,Active,CAI
-AC034,SU-BKY,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9A,2022,186,13864,5676,Active,SSH
-AC035,SU-HPH,Airbus A320-214 (Sharklets),Nile Air,Honeywell 131-9A,2007,186,53295,33782,Active,HRG
+AC034,SU-BKY,Airbus A320-214 (Sharklets),Air Cairo,Honeywell 131-9A,2022,186,13864,5676,Grounded (AOG),SSH
+AC035,SU-HPH,Airbus A320-214 (Sharklets),Nile Air,Honeywell 131-9A,2007,186,53295,33782,In Maintenance,HRG
 AC036,SU-CKS,Airbus A320-214,Nile Air,Honeywell 131-9(A),2007,180,65056,32262,Active,CAI
 AC037,SU-ARN,Airbus A320-214,EgyptAir,Honeywell 131-9A,2015,180,37004,16126,Active,LXR
 AC038,SU-BYX,Airbus A320-232,Air Cairo,Honeywell 131-9(A),2008,180,58392,28350,Active,SSH
-AC039,SU-CRZ,Airbus A320-214 (Sharklets),EgyptAir,Honeywell 131-9(A),2014,186,39048,15864,In Maintenance,CAI
+AC039,SU-CRZ,Airbus A320-214 (Sharklets),EgyptAir,Honeywell 131-9(A),2014,186,39048,15864,Active,CAI
 AC040,SU-CCC,Airbus A320-214,Air Cairo,Honeywell 131-9(A),2022,180,11984,5472,Active,HBE

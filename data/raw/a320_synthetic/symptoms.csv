@@ -1,0 +1,41 @@
+symptom_id,name,category,typical_source
+S01,Hydraulic system low pressure warning,Cockpit warning,Pilot
+S02,Hydraulic reservoir low level,Indication,Line Mechanic
+S03,Hydraulic fluid leak / wet area,Visual,Line Mechanic
+S04,Engine oil pressure low,Indication,Pilot
+S05,Engine oil quantity decreasing faster than normal,Trend,Automated Monitoring
+S06,Oil leak / oil streaks on cowling,Visual,Line Mechanic
+S07,Oil filter clog indication,Cockpit warning,Pilot
+S08,Engine vibration above limit,Indication,Pilot
+S09,EGT higher than normal / EGT margin loss,Trend,Automated Monitoring
+S10,Fuel flow fluctuation,Indication,Pilot
+S11,Engine thrust / N1 response sluggish,Pilot report,Pilot
+S12,Visible fan blade damage / FOD,Visual,Inspection
+S13,Fuel pump low pressure warning,Cockpit warning,Pilot
+S14,Fuel quantity indication disagree,Indication,Pilot
+S15,Brake temperature high,Indication,Pilot
+S16,Brake wear pin at or below limit,Visual,Inspection
+S17,Tyre cut / tread wear beyond limit,Visual,Line Mechanic
+S18,Tyre pressure low,Indication,Line Mechanic
+S19,Landing gear shock strut low extension,Visual,Line Mechanic
+S20,Landing gear not uplocked / gear disagree,Cockpit warning,Pilot
+S21,Air data disagree (speed / altitude),Cockpit warning,Pilot
+S22,Angle-of-attack disagree,Cockpit warning,Pilot
+S23,Probe heat fault,Cockpit warning,Pilot
+S24,Navigation display / IR alignment fault,Cockpit warning,Pilot
+S25,Weather radar display blank or unreliable,Pilot report,Pilot
+S26,Pack outlet overheat / cabin too hot,Cockpit warning,Cabin Crew
+S27,Cabin pressure fluctuation / ear discomfort,Pilot report,Cabin Crew
+S28,Bleed air overheat / bleed fault,Cockpit warning,Pilot
+S29,IDG oil overheat / low pressure,Cockpit warning,Pilot
+S30,Generator or battery fault,Cockpit warning,Pilot
+S31,Fire detection loop fault,Cockpit warning,Pilot
+S32,Flap / slat asymmetry or slow movement,Cockpit warning,Pilot
+S33,Flight control computer fault,Cockpit warning,Pilot
+S34,APU fails to start,Pilot report,Pilot
+S35,APU EGT overtemperature / auto shutdown,Cockpit warning,Pilot
+S36,Door not closed indication,Cockpit warning,Cabin Crew
+S37,Abnormal noise or vibration in cabin,Pilot report,Cabin Crew
+S38,Corrosion / paint blistering on structure,Visual,Inspection
+S39,Dent / impact mark on skin or radome,Visual,Inspection
+S40,Bird remains / blood on structure,Visual,Line Mechanic

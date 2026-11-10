@@ -1,0 +1,32 @@
+fault_id,fault_name,ata_code,ata_chapter,system,likely_part_id,default_severity,recommended_checks
+F01,Pack outlet overheat (air cycle machine degradation),21-51,21,Air Conditioning,P001,Major,Check pack outlet temperature|Inspect ACM and heat exchanger|Clean heat exchanger if blocked
+F02,Cabin pressure controller fault,21-31,21,Air Conditioning,P002,Major,Read controller fault history|Test outflow valve|Check static sensing lines
+F03,IDG oil overheat / low oil,24-22,24,Electrical Power,P003,Major,Check IDG oil level|Inspect filter indicator|Look for oil leaks at IDG
+F04,Main battery fault,24-38,24,Electrical Power,P004,Major,Measure battery voltage|Check connector and vent|Capacity check or replace battery
+F05,Engine fire detection loop fault,26-12,26,Fire Protection,P005,Major,Run fire test|Check loop resistance|Inspect routing for chafing
+F06,Flap drive actuator wear,27-51,27,Flight Controls,P006,Major,Check asymmetry log|Inspect actuator for leaks and play|Run flap test
+F07,ELAC computer fault,27-93,27,Flight Controls,P007,Critical,Read CFDS history|Reset and retest|Replace ELAC if fault persists
+F08,Fuel tank booster pump failure,28-21,28,Fuel,P008,Major,Check pump low-pressure warning|Measure pump current|Replace pump
+F09,Fuel quantity indication fault,28-42,28,Fuel,P009,Minor,Compare FQI with manual reading|Read FQIC history|Check probe harness
+F10,Green engine-driven hydraulic pump failure,29-11,29,Hydraulic Power,P010,Critical,Check HYD page pressure|Inspect case drain filter|Replace EDP
+F11,Hydraulic line or seal leak,29-11,29,Hydraulic Power,P011,Major,Locate leak source|Replace hose / seal|Leak check and refill
+F12,Pitot probe heater failure,30-31,30,Ice & Rain Protection,P012,Major,Check probe heater current|Inspect probe|Run air data test
+F13,Brake wear beyond limit,32-42,32,Landing Gear,P013,Minor,Measure wear pin|Check brake temperature history|Replace brake
+F14,Tyre damage / wear beyond limit,32-41,32,Landing Gear,P014,Minor,Check pressure and tread|Inspect for cuts and bulges|Replace tyre
+F15,MLG shock absorber leak / under-serviced,32-11,32,Landing Gear,P015,Major,Measure strut extension|Check for leaks|Service or replace seals
+F16,Landing gear proximity sensor fault,32-31,32,Landing Gear,P016,Critical,Read LGCIU history|Check sensor gap|Gear retraction test on jacks
+F17,Angle-of-attack sensor fault,34-11,34,Navigation,P017,Critical,Inspect AOA vane|Check heater|Replace sensor and test
+F18,ADIRU fault,34-12,34,Navigation,P018,Critical,Read BITE history|Check alignment|Replace ADIRU
+F19,Weather radar transceiver fault,34-41,34,Navigation,P019,Minor,Run radar self-test|Inspect radome / waveguide|Replace transceiver
+F20,Bleed pressure regulating valve fault,36-11,36,Pneumatic,P020,Major,Check bleed indications|Inspect valve and sense lines|Run bleed test
+F21,APU starter failure,49-41,49,APU,P021,Minor,Check battery voltage|Inspect starter|Replace starter
+F22,APU fuel control / overtemperature,49-31,49,APU,P022,Major,Read ECB history|Check fuel supply|Inspect EGT thermocouples
+F23,Door proximity sensor fault,52-71,52,Doors,P023,Minor,Check DOOR page|Adjust sensor gap|Replace sensor
+F24,Fuselage corrosion,53-00,53,Fuselage,P024,Minor,Assess corrosion depth|Blend out within limits|Apply treatment and report
+F25,Bird strike damage (radome / structure),53-15,53,Fuselage,P025,Major,Inspect impact area|Check radome and probes|Engine inspection if ingested
+F26,Fan blade FOD damage,72-21,72,Engine,P026,Critical,Inspect fan blades|Check blend limits|Engine vibration survey
+F27,HPT blade deterioration (EGT margin loss),72-51,72,Engine,P027,Major,Review EGT trend|Borescope HPT|Plan shop visit
+F28,Fuel metering unit fault,73-21,73,Engine Fuel & Control,P028,Major,Read FADEC history|Check fuel flow transmitter|Replace FMU
+F29,Engine oil pressure indication fault,79-31,79,Oil,P029,Minor,Compare with direct gauge|Check transmitter connector|Replace transmitter
+F30,Engine oil filter clogging,79-21,79,Oil,P030,Major,Check clog indicator|Inspect filter debris|Replace filter
+F31,Engine oil leak,79-00,79,Oil,P031,Major,Locate leak|Check consumption trend|Replace seal and leak check
