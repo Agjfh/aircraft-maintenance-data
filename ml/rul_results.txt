@@ -1,0 +1,8 @@
+FD001  RMSE=19.85  MAE=14.13  (test engines: 100)
+FD001 improved  RMSE=14.44  MAE=10.40  (test engines: 100, features: 76)
+FD002  RMSE=15.47  MAE=11.43  (test engines: 259)
+FD002 improved  RMSE=14.30  MAE=10.57  (test engines: 259, features: 86)
+FD003  RMSE=18.54  MAE=13.39  (test engines: 100)
+FD003 improved  RMSE=15.70  MAE=11.36  (test engines: 100, features: 81)
+FD004  RMSE=17.88  MAE=12.26  (test engines: 248)
+FD004 improved  RMSE=15.17  MAE=10.66  (test engines: 248, features: 86)
